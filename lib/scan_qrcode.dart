@@ -10,6 +10,6 @@ class ScanQRCode extends StatefulWidget {
 class _ScanQRCodeState extends State<ScanQRCode> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return  Scaffold(appBar: AppBar(title: const Text('Qr code scaner')),);
   }
 }
